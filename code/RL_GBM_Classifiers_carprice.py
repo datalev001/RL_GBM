@@ -1,4 +1,6 @@
 
+# The RL GBM Classifiers for Predicting Above-Median Used Car Prices Using Kaggle Dataset
+
 import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -11,6 +13,7 @@ import matplotlib.pyplot as plt
 
 
 # === Step 1: Load Data: https://www.kaggle.com/competitions/playground-series-s4e9/data ===
+# The target is price > median(price)
 df = pd.read_csv("train.csv")
 
 # === Step 2: Initial Cleanup ===
