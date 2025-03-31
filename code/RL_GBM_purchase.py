@@ -1,4 +1,4 @@
-#######RL + GBM####################
+#######RL + GBM Regression ####################
 import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -13,6 +13,7 @@ import matplotlib.pyplot as plt
 # load Data
 #############################################
 
+# The target of regression models is 'Amount'
 df = pd.read_csv('purchase.csv')
 df = pd.get_dummies(df, columns=['Channel'], drop_first=True)
 
