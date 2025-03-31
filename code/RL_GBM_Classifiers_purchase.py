@@ -177,9 +177,8 @@ def rl_gbm_classifier(
     return test_prob, train_auc_hist, val_auc_hist, test_auc_hist, feat_imp_df
 
 
-
 if __name__=="__main__":
-    # Generate data
+    # The binary target of models is 'Purchase'
     df = pd.read_csv('purchase_binary.csv')    
     df = df[df["Promo"]==1]
     df = pd.get_dummies(df, columns=['Channel'], drop_first=True)
