@@ -1,4 +1,5 @@
-#######RL + GBM Regression ####################
+#######The RL GBM Regression for predicting Amount Using Using Synthetic Data####################
+# The target of regression models is 'Amount'
 import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
