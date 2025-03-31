@@ -1,5 +1,6 @@
 
 # The RL GBM Classifiers for Predicting Above-Median Used Car Prices Using Kaggle Dataset
+# The target is price > median(price)
 
 import numpy as np
 import pandas as pd
