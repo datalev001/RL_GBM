@@ -1,3 +1,5 @@
+# The RL GBM Classifier for Predicting Customer Purchase Decisions Using Synthetic Data
+# The binary target of models is 'Purchase'
 import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
