@@ -10,7 +10,7 @@ import lightgbm as lgb
 import matplotlib.pyplot as plt
 
 
-# === Step 1: Load Data ===
+# === Step 1: Load Data: https://www.kaggle.com/competitions/playground-series-s4e9/data ===
 df = pd.read_csv("train.csv")
 
 # === Step 2: Initial Cleanup ===
